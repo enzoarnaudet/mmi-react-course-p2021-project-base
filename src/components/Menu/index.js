@@ -5,9 +5,11 @@ const Menu = () => {
     <aside>
       <span>Menu</span>
       <ul>
-        <li>Artistes</li>
-        <li>Albums</li>
-        <li>Crédits</li>
+        <li>Home</li>
+        <li>Discover</li>
+        <li>Playlists</li>
+        <li>DM</li>
+        <li>Profil</li>
       </ul>
     </aside>
   )
