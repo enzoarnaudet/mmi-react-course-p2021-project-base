@@ -1,0 +1,15 @@
+.menuItem {
+   
+    text-decoration: none;
+    margin: 15px;
+  
+  
+}
+
+.menu {
+display:flex;
+list-style: none;
+background-color: gray;
+height: 100px;
+
+}
