@@ -4,14 +4,18 @@ import styles from './Menu.module.css'
 
 
 
+
+
 const MenuItem = (props) => {
    
 
   return (
-        <li>
+
+        <li >
         <Link className={styles.menuItem} to={props.to} >{props.children}</Link>
+        
       </li>
-     
+   
      
      )
 
