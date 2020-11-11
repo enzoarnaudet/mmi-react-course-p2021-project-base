@@ -15,17 +15,27 @@ const Contenu = () => {
         
         <div className={styles.contenumiddle}>
              <ul>
-                <div className={styles.contenumiddle}>
-                    <img className={styles.cover} src={''} />
+                <div className={styles.contenu1}>
+
+                    <img className={styles.cover} src={'cover/dystopia.png'}/>
                     <li><button >Flyzen Beats - Dystopia</button></li>
+
                 </div>
 
-             <li><button >Menz Prod - Zgrinch</button></li>
+                <div className={styles.contenu2}>
 
+                    <img className={styles.cover} src={'cover/600_eib4vdcxsaca5uv.jpg'}/>
+                    <li><button >Menz Prod - Zgrinch</button></li>
+                    
+                </div>
 
-             <li><button >Pejiite - Ninofap</button></li>
+                <div className={styles.contenu3}>
 
+                    <img className={styles.cover} src={'cover/introspection.png'}/>
+                    <li><button >Pejiite - Ninofap</button></li>
 
+                </div>
+                
             </ul>   
         </div>
 

@@ -83,7 +83,7 @@
     padding-left: 25vw;
 display:flex;
 list-style: none;
-background-color:rgba(100, 100, 100, 0.6);
+background: rgba(112, 112, 112, 0.6);
 height: 100px;
 align-items: center;
 margin: 0px;
@@ -95,6 +95,7 @@ margin: 0px;
    
     padding-left: 5%;
     padding-right: 5%;
+    
    
 }
 
