@@ -2,6 +2,10 @@ ul {
     list-style: none;
   }
 
+.cover {
+    height: 120px;
+
+}
 
 .section{
     display: flex;
@@ -15,8 +19,24 @@ ul {
 .contenumiddle {
     background-color:rgba(100, 100, 100, 0.6);
     width: 40%;
+    border-radius: 5px;
 }
 
 .contenuright{
     width: 30%;
+}
+
+.contenu1{
+    margin-top: 10%;
+    display: flex;
+}
+
+.contenu2{
+    margin-top: 10%;
+    display: flex;
+}
+
+.contenu3{
+    margin-top: 10%;
+    display: flex;
 }
