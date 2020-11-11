@@ -6,7 +6,7 @@ import styles from './Artist.module.css'
 const HomePage = () => {
   return (
     <Page>
-      <div class={styles.page}>
+      <div className={styles.page}>
         <h1 className={styles.title}>Home</h1>
       </div>
     </Page>

@@ -39,3 +39,7 @@ margin: 0px;
     padding-right: 5%;
    
 }
+
+::placeholder{
+    color: white;
+}
