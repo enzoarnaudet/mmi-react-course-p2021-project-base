@@ -1,0 +1,59 @@
+.section{
+    display: flex;
+    margin-top: 5%;
+}
+
+.contenuleft{
+    width: 30%;
+}
+
+.contenumiddleleft{
+    width: 30%;
+    
+    
+
+}
+
+.contenumiddleright{
+margin-left: 720px;
+width: 30%;
+}
+
+.contenumiddle {
+    background-color:rgba(100, 100, 100, 0.6);
+    width: 60%;
+}
+
+.contenuright{
+    width: 20%;
+}
+
+.profil{
+    height: 200px;
+}
+
+.h1{
+    text-align: center; 
+}
+
+.h2{
+    display: inline;
+   
+   margin-left: 30px;
+   
+}
+
+.h3{
+    display: inline;
+}
+
+.puces{
+    display: inline;
+    padding: 10px;
+}
+
+.logo {
+    height:100px;
+    text-align: center;
+
+}
