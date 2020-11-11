@@ -2,15 +2,25 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import MenuItem from './MenuItem'
 import styles from './Menu.module.css'
-
+import Input from '../Input'
 
 const Menu = () => {
   return (
 
     
     <div>
+   
       <ul className={styles.menu}>
-      <MenuItem to="/">
+      <img className={styles.logo} src={'logo.png'} />
+      
+      <form className={styles.form}>
+      
+      <Input type="text" placeholder="               Rechercher"/>
+
+      
+      
+      </form>
+      <MenuItem to="/" >
         Home
       </MenuItem>
       <MenuItem to="/discover">
@@ -31,7 +41,7 @@ const Menu = () => {
       
       </ul>
       
-      
+       
     </div>
 
   )

@@ -6,13 +6,28 @@
   
 }
 
+.logo{
+
+    height: 6vw;
+  align-items: flex-start;
+  opacity: 100%;
+}
+
 .menu {
-    padding-left: 60vw;
+    padding-left: 25vw;
 display:flex;
 list-style: none;
-background-color: #707070;
+background-color:#707070;
 height: 100px;
 align-items: center;
 margin: 0px;
-opacity: 60%;
+
+}
+
+.form{
+
+   
+    padding-left: 5%;
+    padding-right: 5%;
+   
 }
