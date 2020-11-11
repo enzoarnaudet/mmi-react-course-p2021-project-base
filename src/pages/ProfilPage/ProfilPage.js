@@ -18,16 +18,13 @@ const ProfilPage = () => {
 
                 
              <div className={styles.contenumiddle}>
-             <div className={styles.contenumiddleleft}>
+                                        <div className={styles.contenumiddleleft}>
                 <div>
                   <img className={styles.profil} src={'flyzen.png'} />
                   </div> 
                   <div>
-                  <h3 className={styles.h3}>13</h3>
-                   <h3 className={styles.h3}>      tracks</h3>
-
-                   <h3 className={styles.h2}>4243</h3>
-                   <h3 className={styles.h3}>      followers</h3>
+                  <h3 className={styles.h3}>13 tracks</h3>
+                   <h3 className={styles.h2}>4243 followers</h3>
                  </div>
                     <div>
                         <p>Je suis un beatmaker français 
@@ -38,7 +35,7 @@ Je fais différents genre de rap, de la drill, du two step, et de l’emo rap.
 
 </p>
                     </div>
-             </div>
+                                        </div>
              
                         <div className={styles.contenumiddleright}>
 
@@ -65,19 +62,19 @@ Je fais différents genre de rap, de la drill, du two step, et de l’emo rap.
                              </div>
                                              <div>
                                                  <img className={styles.logo} src={'/cover/dystopia.png'} />
-                                                  Dystopia - Flyzen Beats 
+                                                  <p className={styles.p}>Dystopia - Flyzen Beats </p>
                                             </div>
                                             <div>
                                                  <img className={styles.logo} src={'/cover/dystopia.png'} />
-                                                  Dystopia - Flyzen Beats 
+                                                 <p className={styles.p}>Dystopia - Flyzen Beats </p>
                                             </div>
                                             <div>
                                                  <img className={styles.logo} src={'/cover/dystopia.png'} />
-                                                  Dystopia - Flyzen Beats 
+                                                 <p className={styles.p}>Dystopia - Flyzen Beats </p> 
                                             </div>
                                             <div>
                                                  <img className={styles.logo} src={'/cover/dystopia.png'} />
-                                                  Dystopia - Flyzen Beats 
+                                                 <p className={styles.p}>Dystopia - Flyzen Beats </p>
                                             </div>
 
                         </div>
