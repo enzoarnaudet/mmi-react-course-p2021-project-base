@@ -6,56 +6,59 @@ import styles from './DiscoverPage.module.css'
 const DiscoverPage = () => {
   return (
     <Page>
-      <div className="discover-page">
-        <h1> Nouveautés</h1>
+      <h1> Nouveautés</h1>
+      <div className={styles.page}>
+        
        
         <div>
-          <img className={styles.logo} src={'dystopia.png'} />
+          <img className={styles.logo} src={'/cover/dystopia.png'} />
           Dystopia - Flyzen Beats 
         </div>
 
         <div>
-          <img className={styles.logo} src={'introspection.png'} />
+          <img className={styles.logo} src={'/cover/introspection.png'} />
           Introspection - Flyzen Beats
         </div>
 
           <div>
-           <img className={styles.logo} src={'sku.png'} />
+           <img className={styles.logo} src={'/cover/sku.png'} />
            Sku - Travis Scott
           </div>
 
           <div>
-            <img className={styles.logo} src={'pablo.png'} />
+            <img className={styles.logo} src={'/cover/pablo.png'} />
             Sad! - xxxtentacion
           </div>
 
           <div>
-             <img className={styles.logo} src={'sad.png'} />
+             <img className={styles.logo} src={'/cover/sad.png'} />
              Sad! - xxxtentacion
           </div>
+          </div>
+          <div className={styles.page2}>
 
           <div>
-            <img className={styles.logo} src={'mexico.png'} />
+            <img className={styles.logo} src={'/cover/mexico.png'} />
             Mexico - DA UZI
           </div>
 
           <div>
-            <img className={styles.logo} src={'logo.png'} />
+            <img className={styles.logo} src={'/cover/dystopia.png'} />
             Lounge - Menz
           </div>
 
           <div>
-            <img className={styles.logo} src={'mansland.png'} />
+            <img className={styles.logo} src={'/cover/mansland.png'} />
             MAN'S LAND - And the beast
           </div>
 
           <div>
-            <img className={styles.logo} src={'logo.png'} />
+            <img className={styles.logo} src={'/cover/dystopia.png'} />
             Apocalypse - Menz
           </div>
 
           <div>
-            <img className={styles.logo} src={'rage.png'} />
+            <img className={styles.logo} src={'/cover/rage.png'} />
             Turbo S - 7jaws
           </div>
       </div>
