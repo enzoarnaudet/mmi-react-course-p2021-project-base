@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+  }
+
+
+.section{
+    display: flex;
+    margin-top: 5%;
+}
+
+.contenuleft{
+    width: 30%;
+}
+
+.contenumiddle {
+    background-color:rgba(100, 100, 100, 0.6);
+    width: 40%;
+}
+
+.contenuright{
+    width: 30%;
+}
