@@ -9,8 +9,65 @@
 .loupe{
 
     height: 20px;
-
 }
+
+
+.discover{
+
+    height: 25px;
+    
+}
+
+.discover:hover{
+    height:30px;
+}
+  
+
+
+.home{
+
+    height: 25px;
+}
+.home:hover{
+    height:30px;
+}
+
+
+
+.playlist{
+
+    height: 25px;
+}
+
+.playlist:hover{
+    height:30px;
+}
+
+
+.message{
+
+    height: 25px;
+}
+
+.message:hover{
+
+    height: 30px;
+    
+}
+
+
+.profil{
+
+    height: 50px;
+}
+
+.profil:hover{
+
+    height: 55px;
+}
+
+
+
 
 .logo{
 
@@ -20,6 +77,7 @@
   padding-right: 80px;
 
 }
+
 
 .menu {
     padding-left: 25vw;
@@ -43,3 +101,5 @@ margin: 0px;
 ::placeholder{
     color: white;
 }
+
+
