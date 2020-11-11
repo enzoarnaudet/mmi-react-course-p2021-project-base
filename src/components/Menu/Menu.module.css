@@ -6,12 +6,18 @@
   
 }
 
+.loupe{
+
+    height: 20px;
+
+}
+
 .logo{
 
-    height: 6vw;
+    height: 130px;
   align-items: flex-start;
   opacity: 100%;
-  padding-right: 90px;
+  padding-right: 80px;
 
 }
 
