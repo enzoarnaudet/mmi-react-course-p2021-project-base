@@ -2,14 +2,28 @@ import React from 'react'
 import Page from '../../components/Page'
 
 import styles from './Artist.module.css'
+import Contenu from '../../components/Contenu/Contenu'
+import Menu from '../../components/Menu/Menu'
 
 const HomePage = () => {
   return (
-    <Page>
+    <div>
+    
+    
+    
+    <Menu>
       <div className={styles.page}>
         <h1 className={styles.title}>Home</h1>
+
       </div>
-    </Page>
+
+    </Menu>
+    <Contenu>
+      <div>
+        
+      </div>
+    </Contenu>
+    </div>
   )
 }
 
