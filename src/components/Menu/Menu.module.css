@@ -11,13 +11,15 @@
     height: 6vw;
   align-items: flex-start;
   opacity: 100%;
+  padding-right: 90px;
+
 }
 
 .menu {
     padding-left: 25vw;
 display:flex;
 list-style: none;
-background-color:#707070;
+background-color:rgba(100, 100, 100, 0.6);
 height: 100px;
 align-items: center;
 margin: 0px;
