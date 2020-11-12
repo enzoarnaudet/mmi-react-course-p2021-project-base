@@ -6,60 +6,67 @@ import styles from './DiscoverPage.module.css'
 const DiscoverPage = () => {
   return (
     <Page>
+      <div className={styles.section}>
+      
+      <div className={styles.contenuleft}> 
+      </div>
+
+
+      <div className={styles.contenumiddle}>
       <h1 className={styles.h1}> Nouveautés</h1>
       <div className={styles.page}>
         
        
-        <div>
+        <div className={styles.music}>
           <img className={styles.logo} src={'/cover/dystopia.png'} />
-          <p className={styles.p}>Dystopia - Flyzen Beats </p>
+          <p className={styles.p}>Dystopia<br></br>Flyzen Beats </p>
         </div>
 
-        <div>
+        <div className={styles.music}>
           <img className={styles.logo} src={'/cover/introspection.png'} />
-         <p className={styles.p}>Introspection - Flyzen Beats</p> 
+         <p className={styles.p}>Introspection<br></br>Flyzen Beats</p> 
         </div>
 
-          <div>
+          <div className={styles.music}>
            <img className={styles.logo} src={'/cover/sku.png'} />
-           <p className={styles.p}>Sku - Travis Scott</p> 
+           <p className={styles.p}>Goosebumps<br></br>Travis Scott</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/pablo.png'} />
-            <p className={styles.p}>Sad! - xxxtentacion</p> 
+            <p className={styles.p}>Fade<br></br>Kanye West</p> 
           </div>
 
-          <div>
+          <div className={styles.music}> 
              <img className={styles.logo} src={'/cover/sad.png'} />
-             <p className={styles.p}>Sad! - xxxtentacion</p>   
+             <p className={styles.p}>Sad!<br></br>xxxtentacion</p>   
           </div>
           </div>
           <div className={styles.page2}>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/mexico.png'} />
-            <p className={styles.p}>Mexico - DA UZI</p>  
+            <p className={styles.p}>Mexico<br></br>DA UZI</p>  
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/lounge.png'} />
-            <p className={styles.p}>Lounge - Menz</p> 
+            <p className={styles.p}>Lounge<br></br>Menz</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/mansland.png'} />
-            <p className={styles.p}>MAN'S LAND - And the beast</p> 
+            <p className={styles.p}>MAN'S LAND<br></br>And the beast</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/apocalypse.png'} />
-            <p className={styles.p}>Apocalypse - Menz</p>  
+            <p className={styles.p}>Apocalypse<br></br>Menz</p>  
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/rage.png'} />
-            <p className={styles.p}>Turbo S - 7jaws</p> 
+            <p className={styles.p}>Turbo S<br></br>7jaws</p> 
           </div>
       </div>
 
@@ -70,60 +77,68 @@ const DiscoverPage = () => {
 
 
 
-      <div className={styles.page}>
+      <div className={styles.page2}>
     
-        <div>
+        <div className={styles.music}>
           <img className={styles.logo} src={'/cover/drill.jpg'} />
           <p className={styles.p}>DRILL</p>
         </div>
 
-        <div>
+        <div className={styles.music}>
           <img className={styles.logo} src={'/cover/drill.jpg'} />
          <p className={styles.p}>EMO RAP</p> 
         </div>
 
-          <div>
+          <div className={styles.music}>
            <img className={styles.logo} src={'/cover/drill.jpg'} />
            <p className={styles.p}>TWO-STEP</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/drill.jpg'} />
             <p className={styles.p}>RAP METAL</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
              <img className={styles.logo} src={'/cover/drill.jpg'} />
              <p className={styles.p}>RAPCORE</p>   
           </div>
           </div>
           <div className={styles.page2}>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/drill.jpg'} />
             <p className={styles.p}>POP RAP</p>  
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/drill.jpg'} />
             <p className={styles.p}>COUNTRY RAP</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/drill.jpg'} />
             <p className={styles.p}>CRUNK</p> 
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/drill.jpg'} />
             <p className={styles.p}>CLOUD RAP</p>  
           </div>
 
-          <div>
+          <div className={styles.music}>
             <img className={styles.logo} src={'/cover/drill.jpg'} />
             <p className={styles.p}>GANGSTA RAP</p> 
           </div>
+          </div>
       </div>
+      <div className={styles.contenuright}> 
+
+      </div>
+      </div>
+
+
+
     </Page>
   )
 }
