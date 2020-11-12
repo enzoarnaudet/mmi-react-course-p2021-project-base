@@ -1,0 +1,83 @@
+.section{
+    display: flex;
+    padding-top: 10%;
+    
+}
+
+.contenuleft{
+    width: 25%;
+}
+
+.contenumiddleleft{
+    width: 50%;
+}
+
+.contenumiddleright{
+    background: rgba(152, 152, 152, 0.2);
+    
+    opacity: 0.2px;
+
+width: 50%;
+}
+
+.contenumiddle {
+    background: radial-gradient(50.57% 73.72% at 50% 50.57%, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+
+}
+
+.contenuright{
+    width: 25%;
+}
+
+.profil{
+    height: 60px;
+}
+
+.h1{
+    text-align: center; 
+    
+}
+
+.ul{
+    text-align: center; 
+    padding-left: 10px;
+    
+}
+.h2{
+    display: inline;
+   
+   margin-left: 30px;
+   
+}
+
+.h3{
+    display: inline;
+}
+
+.puces{
+    display: inline;
+    padding: 10px;
+}
+
+.logo {
+    height:80px;
+    text-align: center;
+    padding-top:20px;
+}
+
+.p{
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+
+.headerMessage{
+
+    background: #959595;
+border-radius: 10px;
+
+}
