@@ -5,6 +5,7 @@ import styles from './Artist.module.css'
 import Contenu from '../../components/Contenu/Contenu'
 import Menu from '../../components/Menu/Menu'
 import Social from '../../components/Social/Social'
+import Background from '../../components/Background/Background'
 
 const HomePage = () => {
   return (
@@ -17,6 +18,9 @@ const HomePage = () => {
       </div>
 
     </Menu>
+    <Background/>
+
+    
     <div className={styles.section}>
     <div className={styles.contenuleft}> 
 

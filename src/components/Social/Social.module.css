@@ -9,3 +9,15 @@
     padding-top: 4%;
     display: flex;
 }
+
+    a{
+        text-decoration: none;
+        
+    }
+
+.son {
+    margin-top: 5%;
+}
+.son1{
+    margin-left: 5%;
+}
