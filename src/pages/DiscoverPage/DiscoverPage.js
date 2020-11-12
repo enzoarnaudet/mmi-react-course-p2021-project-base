@@ -85,50 +85,50 @@ const DiscoverPage = () => {
         </div>
 
         <div className={styles.music}>
-          <img className={styles.logo} src={'/cover/drill.jpg'} />
-         <p className={styles.p}>EMO RAP</p> 
+          <img className={styles.logo} src={'/cover/chill.png'} />
+         <p className={styles.p}>CHILL</p> 
         </div>
 
           <div className={styles.music}>
-           <img className={styles.logo} src={'/cover/drill.jpg'} />
-           <p className={styles.p}>TWO-STEP</p> 
+           <img className={styles.logo} src={'/cover/emo.png'} />
+           <p className={styles.p}>EMO</p> 
           </div>
 
           <div className={styles.music}>
-            <img className={styles.logo} src={'/cover/drill.jpg'} />
-            <p className={styles.p}>RAP METAL</p> 
+            <img className={styles.logo} src={'/cover/fr.png'} />
+            <p className={styles.p}>RAP FR</p> 
           </div>
 
           <div className={styles.music}>
-             <img className={styles.logo} src={'/cover/drill.jpg'} />
-             <p className={styles.p}>RAPCORE</p>   
+             <img className={styles.logo} src={'/cover/hardstyle.png'} />
+             <p className={styles.p}>HARDSTYLE</p>   
           </div>
           </div>
           <div className={styles.page2}>
 
           <div className={styles.music}>
-            <img className={styles.logo} src={'/cover/drill.jpg'} />
-            <p className={styles.p}>POP RAP</p>  
+            <img className={styles.logo} src={'/cover/instrumentales.png'} />
+            <p className={styles.p}>INSTRUMENTALES</p>  
           </div>
 
           <div className={styles.music}>
-            <img className={styles.logo} src={'/cover/drill.jpg'} />
-            <p className={styles.p}>COUNTRY RAP</p> 
+            <img className={styles.logo} src={'/cover/lofi.png'} />
+            <p className={styles.p}>LOFI</p> 
           </div>
 
           <div className={styles.music}>
-            <img className={styles.logo} src={'/cover/drill.jpg'} />
-            <p className={styles.p}>CRUNK</p> 
+            <img className={styles.logo} src={'/cover/pop-punk.png'} />
+            <p className={styles.p}>POP-PUNK</p> 
           </div>
 
           <div className={styles.music}>
-            <img className={styles.logo} src={'/cover/drill.jpg'} />
-            <p className={styles.p}>CLOUD RAP</p>  
+            <img className={styles.logo} src={'/cover/synthwave.png'} />
+            <p className={styles.p}>SYNTHWAVE</p>  
           </div>
 
           <div className={styles.music}>
-            <img className={styles.logo} src={'/cover/drill.jpg'} />
-            <p className={styles.p}>GANGSTA RAP</p> 
+            <img className={styles.logo} src={'/cover/us.png'} />
+            <p className={styles.p}>US</p> 
           </div>
           </div>
       </div>
