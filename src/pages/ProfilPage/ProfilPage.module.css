@@ -29,7 +29,7 @@ width: 50%;
 }
 
 .profil{
-    height: 200px;
+    height: 300px;
 }
 
 .h1{
@@ -37,6 +37,11 @@ width: 50%;
     
 }
 
+.ul{
+    text-align: center; 
+    padding-left: 10px;
+    
+}
 .h2{
     display: inline;
    
@@ -61,4 +66,14 @@ width: 50%;
 
 .p{
     display: inline;
+    padding-left: 10px;
+}
+
+.followers{
+padding-left: 70px;
+}
+
+
+.description{
+padding-left: 50px;
 }
