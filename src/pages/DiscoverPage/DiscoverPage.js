@@ -2,6 +2,7 @@ import React from 'react'
 import Page from '../../components/Page'
 import styles from './DiscoverPage.module.css'
 import Text from '../../components/Text'
+import Social from '../../components/Social/Social'
 
 
 const DiscoverPage = () => {
@@ -74,7 +75,7 @@ const DiscoverPage = () => {
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/mansland.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>MAN'S LAND<br></br>And the beast</p>
+            <p className={styles.p}>And the beast<br></br>MAN'S LAND</p>
             </Text> 
           </div>
 
@@ -176,7 +177,11 @@ const DiscoverPage = () => {
           </div>
       </div>
       <div className={styles.contenuright}> 
-
+         <Social> 
+          <div>
+            
+          </div>
+         </Social> 
       </div>
       </div>
 

@@ -1,23 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Input from '../Input'
+import React, { useContext } from 'react'
+import {BackgroundContext} from '../../App.js'
 import styles from './Background.module.css'
-import MenuItem from '../Menu/MenuItem'
-
-
 const Background = () => {
+const context = useContext(BackgroundContext)
     return (
-  
-<div className={styles.background}>
-
-    <ul>
-        <li><img className={styles.cover} src={'cover/dystopia.png'}/></li>
-        <li><img className={styles.cover} src={'cover/600_eib4vdcxsaca5uv.jpg'}/></li>
-        <li><img className={styles.cover} src={'cover/introspection.png'}/></li>
-    </ul>
-    
-</div>
+        
+        <div className={styles.cover}>
+        <div className={styles.carre}></div>
+        <img className={styles.image} src={context.src}/>
+        
+        </div>
+        
+        
     )
   }
-  
   export default Background

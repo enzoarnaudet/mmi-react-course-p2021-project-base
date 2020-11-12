@@ -1,0 +1,18 @@
+.cover{
+    position: fixed;
+    z-index: -1;
+    filter: brightness(80%);
+    
+    
+    
+}
+/*utiliserr botoom */
+.image{
+    
+    width: 100vw;
+    height: 200vh;
+    filter: blur(25px);
+    transform: scale(1.1); 
+    margin-bottom: 300px;
+    vertical-align: middle;
+}
