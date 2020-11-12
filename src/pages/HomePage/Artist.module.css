@@ -1,1 +1,20 @@
 
+.section{
+    display: flex;
+    
+}
+
+.contenuright{
+    width: 25%;
+}
+
+.contenuleft{
+    width: 25%;
+}
+
+
+.contenumiddle {
+    
+    width: 50%;
+    
+}
