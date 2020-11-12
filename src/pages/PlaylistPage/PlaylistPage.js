@@ -7,7 +7,7 @@ const PlaylistPage = () => {
 
       <Page>
       <div className="playlist-page">
-        <h1>Mes Playlists</h1>
+        <h1 className={styles.h1}>Mes Playlists</h1>
       </div>
       </Page>
     )
