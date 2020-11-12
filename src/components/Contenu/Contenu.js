@@ -8,12 +8,7 @@ const Contenu = () => {
     return (
   
 <div className={styles.section}>
-
-        <div className={styles.contenuleft}> 
-
-        </div>
         
-        <div className={styles.contenumiddle}>
              <ul>
                 <div className={styles.contenu1}>
 
@@ -29,20 +24,20 @@ const Contenu = () => {
                     
                 </div>
 
-                <div className={styles.contenu3}>
+                <div className={styles.playlist1}>
 
-                    <img className={styles.cover} src={'cover/introspection.png'}/>
-                    <li><button >Pejiite - Ninofap</button></li>
+                    <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
+                    <li><button >Daily Mix Drill</button></li>
 
                 </div>
-                
-            </ul>   
-        </div>
 
-        <div className={styles.contenuright}> 
-
-        </div>
-
+                <div className={styles.contenu3}>
+                    <img className={styles.cover} src={'cover/introspection.png'}/>
+                    <div className={styles.contenuplaylist}>
+                    <li><button >Pejiite - Ninofap</button></li> 
+                    </div>
+                </div>
+            </ul> 
 </div>
     )
   }
