@@ -34,8 +34,7 @@ const Contenu = () => {
                 <div className={styles.contenu3}>
                     <img className={styles.cover} src={'cover/introspection.png'}/>
                     <div className={styles.contenuplaylist}>
-                    <li><button >Pejiite - Ninofap</button></li>
-                    
+                    <li><button >Pejiite - Ninofap</button></li> 
                     </div>
                 </div>
             </ul> 

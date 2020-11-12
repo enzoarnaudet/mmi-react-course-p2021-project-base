@@ -1,11 +1,15 @@
 
 .section{
     display: flex;
+    padding-top: 5%;
     
 }
 
 .contenuright{
     width: 25%;
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 4%;
 }
 
 .contenuleft{

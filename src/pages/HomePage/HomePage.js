@@ -4,6 +4,7 @@ import Page from '../../components/Page'
 import styles from './Artist.module.css'
 import Contenu from '../../components/Contenu/Contenu'
 import Menu from '../../components/Menu/Menu'
+import Social from '../../components/Social/Social'
 
 const HomePage = () => {
   return (
@@ -29,7 +30,11 @@ const HomePage = () => {
             </Contenu>
         </div>
         <div className={styles.contenuright}> 
-
+        <Social> 
+          <div>
+            
+          </div>
+        </Social> 
         </div>
 
         </div>
