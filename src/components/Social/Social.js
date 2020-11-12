@@ -14,35 +14,35 @@ const Social = () => {
                 <div className={styles.contenu}>
 
                     <img className={styles.cover} src={'42764_415.jpg'}/>
-                    <li><button >Menz</button></li>
+                    <li><a>Menz</a></li>
 
                 </div>
 
                 <div className={styles.contenu}>
 
                     <img className={styles.cover} src={'42765_415.jpg'}/>
-                    <li><button >Pop Hip</button></li>
+                    <li><a >Pop Hip</a></li>
                     
                 </div>
 
                 <div className={styles.contenu}>
 
                     <img className={styles.cover} src={'large_c64c1a5b1a877c9c29c8c375775debbb.jpg'}/>
-                    <li><button >Pablin</button></li>
+                    <li><a>Pablin</a></li>
 
                 </div>
 
                 <div className={styles.contenu}>
                     <img className={styles.cover} src={'large_abd452473d389e5cb99f13bf278ebf00.jpg'}/>
                     
-                    <li><button >Pejiite</button></li> 
+                    <li><a>Pejiite</a></li> 
                     
                 </div>
 
                 <div className={styles.contenu}>
                     <img className={styles.cover} src={'channels4_profile.jpg'}/>
                     
-                    <li><button >Ninofapnovember</button></li> 
+                    <li><a>Ninofapnovember</a></li> 
                     
                 </div>
             </ul> 
