@@ -14,18 +14,18 @@
 }
 
 .contenuleft {
-    width: 25%;
+    width: 23%;
 }
 
 .contenumiddle {
-    width: 50%;
+    width: 52%;
 }
 
 
 .contenuright{
     width: 25%;
     position: fixed;
-    margin-left: 78%;
+    margin-left: 75%;
     margin-top: 4%;
 }
 
@@ -36,12 +36,29 @@
     
 
 }
+.p{
+    margin-left: 0vw;
+    color: white;
+}
 
 .music{
-    margin-left: 50px;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 13%;
 }
+
 button {
-    border: none; 
-    text-decoration: none;
-    
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	text-align: left;
   }
+  #button:active {
+    border: none;
+}
+  
+p{
+    color: white;
+}

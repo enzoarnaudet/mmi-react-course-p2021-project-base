@@ -8,7 +8,7 @@ import Text from '../../components/Text'
 import Contenu from '../../components/Contenu/Contenu'
 import Social from '../../components/Social/Social'
 import Input from '../../components/Input'
-
+import Background from '../../components/Background/Background'
 
 
 
@@ -16,6 +16,8 @@ import Input from '../../components/Input'
 const DMPage = () => {
   return (
       <Page>
+          <Background/>
+          
   <div className={styles.section}>
            <div className={styles.contenuleft}> 
 

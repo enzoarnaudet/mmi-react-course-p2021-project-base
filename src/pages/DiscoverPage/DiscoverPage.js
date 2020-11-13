@@ -24,7 +24,7 @@ const changeBackground = (src) => {
 
       <div className={styles.contenumiddle}>
       <Text size= 'xlarge' typography= 'bold' tag='h1'>
-       Nouveautés   
+       <p>Nouveautés </p> 
         </Text>
       <div className={styles.page}>
         
@@ -39,14 +39,14 @@ const changeBackground = (src) => {
         <div className={styles.music}>
           <img className={styles.logo} src={'/cover/introspection.png'} />
           <Text size= 'small' typography= 'bold' tag='p'>
-          <button className={styles.p} onClick={ () => { changeBackground('cover/introspection.png') }}>Introspection<br></br>Flyzen Beats </button>
+          <button className={styles.p} onClick={ () => { changeBackground('cover/introspection.png') }}>Introspection<br></br>Flyzen Beats</button>
          </Text>
         </div>
 
           <div className={styles.music}>
            <img className={styles.logo} src={'/cover/sku.png'} />
            <Text size= 'small' typography= 'bold' tag='p'>
-           <button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}> Goosebumps<br></br>Travis Scott </button>
+           <button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}> Goosebumps<br></br>Travis Scott</button>
             </Text>
           </div>
 
@@ -60,7 +60,7 @@ const changeBackground = (src) => {
           <div className={styles.music}> 
              <img className={styles.logo} src={'/cover/sad.png'} />
              <Text size= 'small' typography= 'bold' tag='p'>
-             <button className={styles.p} onClick={ () => { changeBackground('cover/sad.png') }}>Sad!<br></br>xxxtentacion</button> 
+             <button className={styles.p} onClick={ () => { changeBackground('cover/sad.png') }}>Sad!<br></br>XXXTENTATION</button> 
              </Text>  
           </div>
           </div>
@@ -105,7 +105,7 @@ const changeBackground = (src) => {
 
 
       <Text size= 'xlarge' typography= 'bold' tag='h1'>
-      Genres
+      <p>Genres</p>
       </Text>
 
 
