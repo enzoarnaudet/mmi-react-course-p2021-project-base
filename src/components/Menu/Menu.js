@@ -11,7 +11,11 @@ const Menu = () => {
     <div>
    
       <ul className={styles.menu}>
+
+      <MenuItem to="/mentionslegales" >
       <img className={styles.logo} src={'logo.png'} />
+      </MenuItem>
+      
       
       
       <form className={styles.form}>
