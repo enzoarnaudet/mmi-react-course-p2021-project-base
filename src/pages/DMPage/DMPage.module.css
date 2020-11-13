@@ -4,6 +4,7 @@
     
 }
 
+
 .contenuleft{
     width: 25%;
 }
@@ -15,7 +16,7 @@
 .contenumiddleright{
     background: rgba(152, 152, 152, 0.2);
     
-    opacity: 0.2px;
+    
 
 width: 50%;
 }
@@ -27,7 +28,14 @@ width: 50%;
     display: flex;
 
 }
-
+.msg {
+    background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(117, 117, 117, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 10px;
+}
+.msg1{
+    background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(149, 149, 149, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+}
 .contenuright{
     width: 25%;
 }
@@ -77,7 +85,7 @@ width: 50%;
 
 .headerMessage{
     background: rgba(214, 214, 214, 0.46);
-    
+    top: 0;
     color: white;
 border-radius: 10px;
 

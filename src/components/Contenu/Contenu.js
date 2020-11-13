@@ -98,7 +98,7 @@ const changeBackground = (src) => {
                     <img className={styles.cover} src={'cover/sku.png'}/>
                     <div className={styles.playertitre}>
                         <Text size= 'small' typography= 'bold' tag='p'>
-                        <li><button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}>Travis Scoot - Goosebumps</button></li>
+                        <li><button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}>Travis Scott - Goosebumps</button></li>
                         <img className={styles.player} src={'player.png'}/>
                         </Text>
                         <Text size= 'small' typography= 'medium' tag='p'>
@@ -113,7 +113,7 @@ const changeBackground = (src) => {
                     <img className={styles.cover} src={'cover/pablo.png'}/>
                     <div className={styles.playertitre}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/pablo.png') }}>Kanye West - West</button></li>
+                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/pablo.png') }}>Kanye West - Fade</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>

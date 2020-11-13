@@ -26,7 +26,7 @@ const DMPage = () => {
               
            <div className={styles.contenumiddle}>
                   <div className={styles.contenumiddleleft}>
-                  <div className={styles.section}>
+                  <div className={styles.social}>
                   <Social></Social>
             
            
@@ -45,12 +45,11 @@ const DMPage = () => {
                       </div> 
 
                             <div>
-                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-
-                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p className={styles.msg}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p className={styles.msg1}> ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p className={styles.msg}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p className={styles.msg1}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p className={styles.msg}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
 
 
                             </div>
