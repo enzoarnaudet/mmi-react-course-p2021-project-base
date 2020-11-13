@@ -2,10 +2,12 @@ import React from 'react'
 import styles from './ProfilPage.module.css'
 import Page from '../../components/Page'
 import Text from '../../components/Text'
+import Background from '../../components/Background/Background'
 
 const ProfilPage = () => {
     return (
         <Page>
+            <Background/>
     <div className={styles.section}>
              <div className={styles.contenuleft}> 
 
