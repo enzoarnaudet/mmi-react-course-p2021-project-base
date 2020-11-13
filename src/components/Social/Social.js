@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Input from '../Input'
+
 import styles from './Social.module.css'
-import MenuItem from '../Menu/MenuItem'
+
 import Text from '../../components/Text'
 
 
@@ -25,7 +25,7 @@ const Social = () => {
                        
                     </div>
 
-                    <div>
+                    <div className={styles.temps}>
                         <p>en ligne</p>
                     </div>
                    
@@ -38,10 +38,10 @@ const Social = () => {
                     <div className={styles.son1}>
                         <li><a href="" >Pop Hip</a></li>
                         <div className={styles.son}>
-                        <a href="" >Dystopia<br></br>Flyzen BEATS</a></div>
+                        <a href="" >Kamikaze<br></br>Pop Hip</a></div>
                     </div>
 
-                    <div>
+                    <div className={styles.temps}>
                         <p>en ligne</p>
                     </div>         
                 </div>
@@ -54,11 +54,11 @@ const Social = () => {
                 <div className={styles.son1}> 
                         <li><a href="" >Pablin</a></li>
                         <div className={styles.son}>
-                        <a href="" >Dystopia<br></br>Flyzen BEATS</a></div>
+                        <a href="" >Coronavirus<br></br>Menz</a></div>
                 </div>
 
-                <div>
-                    <p>en ligne</p>
+                <div className={styles.temps}>
+                    <p>il y'a 2 min</p>
                 </div>
                 </div>
 
@@ -70,11 +70,11 @@ const Social = () => {
                     <div className={styles.son1}>
                         <li><a href="" >Pejiite</a></li>
                         <div className={styles.son}>
-                        <a href="" >Dystopia<br></br>Flyzen BEATS</a></div>
+                        <a href="" >Utopia<br></br>Flyzen BEATS</a></div>
                     </div>
 
-                    <div>
-                        <p>en ligne</p>
+                    <div className={styles.temps}>
+                        <p>il y'a 5h</p>
                     </div>
 
                     
@@ -88,11 +88,11 @@ const Social = () => {
                     <div className={styles.son1}>
                         <li><a href="" >Ninovember</a></li>
                         <div className={styles.son}>
-                        <a href="" >Dystopia<br></br>Flyzen BEATS</a></div>
+                        <a href="" >01 MANIKIN<br></br>XXXTENTACION</a></div>
                     </div>
 
-                    <div>
-                        <p>en ligne</p>
+                    <div className={styles.temps}>
+                        <p>il y'a 2j</p>
                     </div>
                     
                     
