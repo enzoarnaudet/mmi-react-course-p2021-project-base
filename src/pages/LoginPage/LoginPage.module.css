@@ -1,4 +1,10 @@
 .title {
-  color: var(--page-title-color);
 
+  padding-top: 5%;
+color: white;
 }
+.barre{
+  width: 30%;
+padding-left: 35%;
+}
+
