@@ -12,20 +12,23 @@ const LoginPage = () => {
   return (
     <Page>
       <Background/>
-      <div className="login-page">
+      <div>
         <form>
           <h1 className={styles.title}>Connecte toi</h1>
           <br />
-
+<div className={styles.barre}>
           Email
           <Input type="email" />
-
+</div>
           <br />
           <br />
+          <div className={styles.barre}>
           Password
+          
           <Input
             type="password"
           />
+          </div>
         </form>
       </div>
     </Page>
