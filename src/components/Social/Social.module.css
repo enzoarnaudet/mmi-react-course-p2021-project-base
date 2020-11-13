@@ -12,12 +12,24 @@
 
     a{
         text-decoration: none;
-        
+        color: white;
     }
+ p{
+    color: white;
+        
+}
 
 .son {
     margin-top: 5%;
+    
 }
 .son1{
     margin-left: 5%;
+}
+.son1 :hover{
+    color: rgb(136, 136, 136);
+}
+
+.temps {
+    margin-left: 3vw;
 }

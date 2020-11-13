@@ -1,8 +1,8 @@
 import React , { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import Input from '../Input'
+
 import styles from './Contenu.module.css'
-import MenuItem from '../Menu/MenuItem'
+
 import {BackgroundContext} from '../../App.js'
 
 
@@ -35,14 +35,14 @@ const changeBackground = (src) => {
                 <div className={styles.playlist1}>
 
                     <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
-                    <li><button onClick={changeBackground}>Daily Mix Drill</button></li>
+                    <li><button onClick={ () => { changeBackground('cover/drill.jpg') }}>Daily Mix Drill</button></li>
 
                 </div>
 
                 <div className={styles.contenu3}>
                     <img className={styles.cover} src={'cover/introspection.png'}/>
                     <div className={styles.contenuplaylist}>
-                    <li><button onClick={changeBackground}>Pejiite - Ninofap</button></li> 
+                    <li><button onClick={ () => { changeBackground('cover/introspection.png') }}>Pejiite - Ninofap</button></li> 
                     </div>
                 </div>
             </ul> 
