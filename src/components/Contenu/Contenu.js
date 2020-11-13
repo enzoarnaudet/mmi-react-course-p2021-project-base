@@ -3,12 +3,23 @@ import { Link } from 'react-router-dom'
 import Text from '../../components/Text'
 import styles from './Contenu.module.css'
 import {BackgroundContext} from '../../App.js'
-
+import {SpotifyContext} from '../SpotifyProvider'
 
 const Contenu = () => {
-const context = useContext(BackgroundContext)
-const changeBackground = (src) => {
-    context.changeSrc(src)
+const contextBackground = useContext(BackgroundContext)
+const contextSpotify = useContext(SpotifyContext)
+const playtrack = (src, uri) => {
+    const data = {
+        "device_id": contextSpotify.deviceId,
+        "uris": [ uri ]
+      }
+  console.log(data)
+      contextSpotify.spotifyApi.play(data)
+        .then(function() {
+          console.log('play')
+        })
+
+    contextBackground.changeSrc(src)
 }
     return (
   
@@ -20,7 +31,7 @@ const changeBackground = (src) => {
                     <img className={styles.cover} src={'cover/dystopia.png'}/>
                     <div className={styles.playertitre}>
                         <Text size= 'small' typography= 'bold' tag='p'>
-                        <li><button className={styles.p} onClick={ () => { changeBackground('cover/dystopia.png') }}>Flyzen Beats - Dystopia</button></li>
+                        <li><button className={styles.p} onClick={ () => { playtrack('cover/dystopia.png', "spotify:track:3uww8tj9hlPUbUsJXcOJuc") }}>Flyzen Beats - Dystopia</button></li>
                         <img className={styles.player} src={'player.png'}/>
                         </Text>
                         <Text size= 'small' typography= 'medium' tag='p'>
@@ -35,7 +46,7 @@ const changeBackground = (src) => {
                     <img className={styles.cover} src={'cover/600_eib4vdcxsaca5uv.jpg'}/>
                     <div className={styles.playertitre}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/600_eib4vdcxsaca5uv.jpg') }}>Menz Prod - Zgrinch</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/600_eib4vdcxsaca5uv.jpg') }}>Menz Prod - Zgrinch</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -49,7 +60,7 @@ const changeBackground = (src) => {
                     <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
                     <div className={styles.contenuplaylist}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/drill.jpg') }}>Daily Mix Drill</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/drill.jpg') }}>Daily Mix Drill</button></li>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
                     <div className={styles.contenutous}>
@@ -83,7 +94,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/introspection.png') }}>Pejiite - Ninofap</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/introspection.png') }}>Pejiite - Ninofap</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -98,7 +109,11 @@ const changeBackground = (src) => {
                     <img className={styles.cover} src={'cover/sku.png'}/>
                     <div className={styles.playertitre}>
                         <Text size= 'small' typography= 'bold' tag='p'>
+<<<<<<< HEAD
                         <li><button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}>Travis Scott - Goosebumps</button></li>
+=======
+                        <li><button className={styles.p} onClick={ () => { playtrack('cover/sku.png') }}>Travis Scoot - Goosebumps</button></li>
+>>>>>>> 6ac828e4fd061502058acb0767de46298d85954f
                         <img className={styles.player} src={'player.png'}/>
                         </Text>
                         <Text size= 'small' typography= 'medium' tag='p'>
@@ -113,7 +128,11 @@ const changeBackground = (src) => {
                     <img className={styles.cover} src={'cover/pablo.png'}/>
                     <div className={styles.playertitre}>
                     <Text size= 'small' typography= 'bold' tag='p'>
+<<<<<<< HEAD
                     <li><button className={styles.p} onClick={ () => { changeBackground('cover/pablo.png') }}>Kanye West - Fade</button></li>
+=======
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/pablo.png') }}>Kanye West - West</button></li>
+>>>>>>> 6ac828e4fd061502058acb0767de46298d85954f
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -127,7 +146,7 @@ const changeBackground = (src) => {
                     <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
                     <div className={styles.contenuplaylist}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/drill.jpg') }}>Daily Mix Drill 2</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/drill.jpg') }}>Daily Mix Drill 2</button></li>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
                     <div className={styles.contenutous}>
@@ -161,7 +180,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/sad.png') }}>XXXTENTACION - Sad!</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/sad.png') }}>XXXTENTACION - Sad!</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -177,7 +196,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/mexico.png') }}>DA UZI - Mexico</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/mexico.png') }}>DA UZI - Mexico</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -192,7 +211,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/lounge.png') }}>Menz - Lounge</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/lounge.png') }}>Menz - Lounge</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -208,7 +227,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/mansland.png') }}>MAN'S LAND - And the beats</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/mansland.png') }}>MAN'S LAND - And the beats</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -223,7 +242,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/apocalypse.png') }}>Menz - Apocalypse</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/apocalypse.png') }}>Menz - Apocalypse</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -239,7 +258,7 @@ const changeBackground = (src) => {
                     <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
                     <div className={styles.contenuplaylist}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/drill.jpg') }}>Daily Mix Drill 3</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/drill.jpg') }}>Daily Mix Drill 3</button></li>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
                     <div className={styles.contenutous}>
@@ -273,7 +292,7 @@ const changeBackground = (src) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/rage.png') }}>7Jaws - Turbo S</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/rage.png') }}>7Jaws - Turbo S</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
