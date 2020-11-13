@@ -18,7 +18,7 @@ import Context from './Context'
 
 
 const App = () => {
-const [src, updateBackground] = useState('cover/sad.png')
+const [src, updateBackground] = useState('cover/dystopia.png')
 const changeSrc =  (newBackground) => {  
 updateBackground(newBackground)
 }

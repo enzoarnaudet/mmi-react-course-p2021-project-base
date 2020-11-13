@@ -60,7 +60,7 @@ const changeBackground = (src) => {
           <div className={styles.music}> 
              <img className={styles.logo} src={'/cover/sad.png'} />
              <Text size= 'small' typography= 'bold' tag='p'>
-             <button className={styles.p} onClick={ () => { changeBackground('cover/sad.png') }}>Sad!<br></br>XXXTENTATION</button> 
+             <button className={styles.p} onClick={ () => { changeBackground('cover/sad.png') }}>Sad!<br></br>XXXTENTACION</button> 
              </Text>  
           </div>
           </div>

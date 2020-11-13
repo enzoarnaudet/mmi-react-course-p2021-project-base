@@ -25,11 +25,13 @@
 }
 .son1{
     margin-left: 5%;
+    width: 35%;
 }
 .son1 :hover{
     color: rgb(136, 136, 136);
 }
 
 .temps {
-    margin-left: 3vw;
+    margin-left: 2vw;
+    width: 20%;
 }
