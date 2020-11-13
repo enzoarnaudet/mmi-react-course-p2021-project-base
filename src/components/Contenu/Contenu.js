@@ -109,11 +109,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.cover} src={'cover/sku.png'}/>
                     <div className={styles.playertitre}>
                         <Text size= 'small' typography= 'bold' tag='p'>
-<<<<<<< HEAD
-                        <li><button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}>Travis Scott - Goosebumps</button></li>
-=======
                         <li><button className={styles.p} onClick={ () => { playtrack('cover/sku.png') }}>Travis Scoot - Goosebumps</button></li>
->>>>>>> 6ac828e4fd061502058acb0767de46298d85954f
                         <img className={styles.player} src={'player.png'}/>
                         </Text>
                         <Text size= 'small' typography= 'medium' tag='p'>
@@ -128,11 +124,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.cover} src={'cover/pablo.png'}/>
                     <div className={styles.playertitre}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-<<<<<<< HEAD
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/pablo.png') }}>Kanye West - Fade</button></li>
-=======
                     <li><button className={styles.p} onClick={ () => { playtrack('cover/pablo.png') }}>Kanye West - West</button></li>
->>>>>>> 6ac828e4fd061502058acb0767de46298d85954f
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
