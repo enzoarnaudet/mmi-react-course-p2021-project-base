@@ -40,3 +40,8 @@
 .music{
     margin-left: 50px;
 }
+button {
+    border: none; 
+    text-decoration: none;
+    
+  }
