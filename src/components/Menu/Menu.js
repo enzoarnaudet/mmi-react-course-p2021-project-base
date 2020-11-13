@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import MenuItem from './MenuItem'
 import styles from './Menu.module.css'
 import Input from '../Input'
