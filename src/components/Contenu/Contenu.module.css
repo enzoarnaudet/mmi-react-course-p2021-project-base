@@ -38,3 +38,45 @@ ul {
 .playlistcover{
     height: 200px;
 }
+
+.playertitre {
+    margin-left: 2%;
+}
+
+.player{
+    height: 8vh;
+    margin-left: 2%;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	text-align: left;
+  }
+  #button:active {
+    border: none;
+}
+
+.p{
+    
+    color: white;
+}
+
+p{
+    margin-left: 2%;
+}
+
+.contenuplaylist {
+    background: rgba(230, 230, 230, 0.2);
+    border-radius: 14px;
+    width: 34vw;
+}
+.contenutous{
+    display: flex;
+}
+.contenuplaylistgauche{
+    width:40%;
+}

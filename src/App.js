@@ -19,7 +19,7 @@ import SpotifyProvider from './components/SpotifyProvider'
 const spotifyClientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID
 const spotifyRedirectUri = process.env.REACT_APP_SPOTIFY_REDIRECT_URI
 const App = () => {
-const [src, updateBackground] = useState('cover/sad.png')
+const [src, updateBackground] = useState('cover/dystopia.png')
 const changeSrc =  (newBackground) => {  
 updateBackground(newBackground)
 }
