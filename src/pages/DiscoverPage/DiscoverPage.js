@@ -1,13 +1,21 @@
-import React from 'react'
+import React , { useContext } from 'react'
 import Page from '../../components/Page'
 import styles from './DiscoverPage.module.css'
 import Text from '../../components/Text'
 import Social from '../../components/Social/Social'
 
+import {BackgroundContext} from '../../App.js'
+import Background from '../../components/Background/Background'
+
 
 const DiscoverPage = () => {
+const context = useContext(BackgroundContext)
+const changeBackground = (src) => {
+    context.changeSrc(src)
+}
   return (
     <Page>
+      <Background/>
       <div className={styles.section}>
       
       <div className={styles.contenuleft}> 
@@ -24,35 +32,35 @@ const DiscoverPage = () => {
         <div className={styles.music}>
           <img className={styles.logo} src={'/cover/dystopia.png'} />
           <Text size= 'small' typography= 'bold' tag='p'>
-          <p>Dystopia<br></br>Flyzen Beats </p>
+          <button className={styles.p} onClick={ () => { changeBackground('/cover/dystopia.png') }}>Dystopia<br></br>Flyzen Beats</button>
            </Text>
         </div>
 
         <div className={styles.music}>
           <img className={styles.logo} src={'/cover/introspection.png'} />
           <Text size= 'small' typography= 'bold' tag='p'>
-         <p className={styles.p}>Introspection<br></br>Flyzen Beats</p> 
+          <button className={styles.p} onClick={ () => { changeBackground('cover/introspection.png') }}>Introspection<br></br>Flyzen Beats </button>
          </Text>
         </div>
 
           <div className={styles.music}>
            <img className={styles.logo} src={'/cover/sku.png'} />
            <Text size= 'small' typography= 'bold' tag='p'>
-           <p className={styles.p}>Goosebumps<br></br>Travis Scott</p>
+           <button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}> Goosebumps<br></br>Travis Scott </button>
             </Text>
           </div>
 
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/pablo.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>Fade<br></br>Kanye West</p>
+            <button className={styles.p} onClick={ () => { changeBackground('cover/pablo.png') }}>Fade<br></br>Kanye West</button>
              </Text>
           </div>
 
           <div className={styles.music}> 
              <img className={styles.logo} src={'/cover/sad.png'} />
              <Text size= 'small' typography= 'bold' tag='p'>
-             <p className={styles.p}>Sad!<br></br>xxxtentacion</p> 
+             <button className={styles.p} onClick={ () => { changeBackground('cover/sad.png') }}>Sad!<br></br>xxxtentacion</button> 
              </Text>  
           </div>
           </div>
@@ -61,35 +69,35 @@ const DiscoverPage = () => {
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/mexico.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>Mexico<br></br>DA UZI</p> 
+            <button className={styles.p} onClick={ () => { changeBackground('cover/mexico.png') }}>Mexico<br></br>DA UZI</button>
              </Text>
           </div>
 
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/lounge.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>Lounge<br></br>Menz</p>
+            <button className={styles.p} onClick={ () => { changeBackground('cover/lounge.png') }}>Lounge<br></br>Menz</button>
              </Text>
           </div>
 
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/mansland.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>And the beast<br></br>MAN'S LAND</p>
+            <button className={styles.p} onClick={ () => { changeBackground('cover/mansland.png') }}>And the beast<br></br>MAN'S LAND</button>
             </Text> 
           </div>
 
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/apocalypse.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>Apocalypse<br></br>Menz</p> 
+            <button className={styles.p} onClick={ () => { changeBackground('cover/apocalypse.png') }}>Apocalypse<br></br>Menz</button>
              </Text>
           </div>
 
           <div className={styles.music}>
             <img className={styles.logo} src={'/cover/rage.png'} />
             <Text size= 'small' typography= 'bold' tag='p'>
-            <p className={styles.p}>Turbo S<br></br>7jaws</p>
+            <button className={styles.p} onClick={ () => { changeBackground('cover/rage.png') }}>Turbo S<br></br>7jaws</button>
              </Text>
           </div>
       </div>

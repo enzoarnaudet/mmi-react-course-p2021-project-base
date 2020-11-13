@@ -8,10 +8,7 @@ const context = useContext(BackgroundContext)
         <div className={styles.cover}>
         <div className={styles.carre}></div>
         <img className={styles.image} src={context.src}/>
-        
         </div>
-        
-        
     )
   }
   export default Background
