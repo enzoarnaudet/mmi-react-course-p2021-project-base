@@ -14,6 +14,8 @@ import DMPage from './pages/DMPage/DMPage'
 import ProfilPage from './pages/ProfilPage/ProfilPage'
 import Context from './Context'
 
+
+
 const App = () => {
 const [src, updateBackground] = useState('cover/sad.png')
 const changeSrc =  (newBackground) => {  
@@ -21,6 +23,7 @@ updateBackground(newBackground)
 }
 const contextValue = useMemo(() => ({ src, changeSrc }), [src])
   return (
+    
     <Context.Provider value={contextValue}>
       <BrowserRouter>
         <Switch>
@@ -47,6 +50,7 @@ const contextValue = useMemo(() => ({ src, changeSrc }), [src])
 
       </BrowserRouter>
     </Context.Provider>
+    
   )
 }
 export const BackgroundContext=Context

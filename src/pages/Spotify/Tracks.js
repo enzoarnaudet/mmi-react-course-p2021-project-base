@@ -55,7 +55,7 @@ const Tracks = () => {
               />
               <br/>
               <button onClick={() => { playSound(track.uri) }}>
-                Play
+                {track.uri}
               </button>
             </li>
           )
