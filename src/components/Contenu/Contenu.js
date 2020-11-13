@@ -31,7 +31,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.cover} src={'cover/dystopia.png'}/>
                     <div className={styles.playertitre}>
                         <Text size= 'small' typography= 'bold' tag='p'>
-                        <li><button className={styles.p} onClick={ () => { playtrack('cover/dystopia.png', "spotify:track:3uww8tj9hlPUbUsJXcOJuc") }}>Flyzen Beats - Dystopia</button></li>
+                        <li><button className={styles.p} onClick={ () => { playtrack('cover/dystopia.png', "spotify:track:7FullO2NDkyvxLuxYVKINa") }}>Flyzen Beats - Dystopia</button></li>
                         <img className={styles.player} src={'player.png'}/>
                         </Text>
                         <Text size= 'small' typography= 'medium' tag='p'>
@@ -46,7 +46,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.cover} src={'cover/600_eib4vdcxsaca5uv.jpg'}/>
                     <div className={styles.playertitre}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { playtrack('cover/600_eib4vdcxsaca5uv.jpg') }}>Menz Prod - Zgrinch</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/600_eib4vdcxsaca5uv.jpg', "spotify:track:41LhQUkElADQ5YUbpYv2D0") }}>Menz Prod - Zgrinch</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -60,7 +60,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
                     <div className={styles.contenuplaylist}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { playtrack('cover/drill.jpg') }}>Daily Mix Drill</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/drill.jpg', ) }}>Daily Mix Drill</button></li>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
                     <div className={styles.contenutous}>
@@ -94,7 +94,7 @@ const playtrack = (src, uri) => {
                     <div className={styles.playertitre}>
                     
                     <Text size= 'small' typography= 'bold' tag='p'>
-                    <li><button className={styles.p} onClick={ () => { playtrack('cover/introspection.png') }}>Pejiite - Ninofap</button></li>
+                    <li><button className={styles.p} onClick={ () => { playtrack('cover/introspection.png', "spotify:track:48K2mX5Jx0wjRyFvupLRgg") }}>Pejiite - Ninofap</button></li>
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
@@ -109,11 +109,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.cover} src={'cover/sku.png'}/>
                     <div className={styles.playertitre}>
                         <Text size= 'small' typography= 'bold' tag='p'>
-<<<<<<< HEAD
-                        <li><button className={styles.p} onClick={ () => { changeBackground('cover/sku.png') }}>Travis Scott - Goosebumps</button></li>
-=======
                         <li><button className={styles.p} onClick={ () => { playtrack('cover/sku.png') }}>Travis Scoot - Goosebumps</button></li>
->>>>>>> 6ac828e4fd061502058acb0767de46298d85954f
                         <img className={styles.player} src={'player.png'}/>
                         </Text>
                         <Text size= 'small' typography= 'medium' tag='p'>
@@ -128,11 +124,7 @@ const playtrack = (src, uri) => {
                     <img className={styles.cover} src={'cover/pablo.png'}/>
                     <div className={styles.playertitre}>
                     <Text size= 'small' typography= 'bold' tag='p'>
-<<<<<<< HEAD
-                    <li><button className={styles.p} onClick={ () => { changeBackground('cover/pablo.png') }}>Kanye West - Fade</button></li>
-=======
                     <li><button className={styles.p} onClick={ () => { playtrack('cover/pablo.png') }}>Kanye West - West</button></li>
->>>>>>> 6ac828e4fd061502058acb0767de46298d85954f
                     <img className={styles.player} src={'player.png'}/>
                     </Text>
                     <Text size= 'small' typography= 'medium' tag='p'>
