@@ -39,12 +39,32 @@ const DMPage = () => {
                           <Text size= 'small' typography= 'medium' tag='h1'>
                           <p>En Ligne</p>
                           </Text>
-                         <div> 
-                              <form>
-                                    <Input type="text" />
-                              </form>
-                          </div>
-                      </div>                            
+                      </div> 
+
+                            <div>
+                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+
+                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+
+
+                            </div>
+
+
+
+
+
+
+
+                                                  <div> 
+                                                        <form>
+                                                        <Input dark  type="text" placeholder="Écris ton message..." >
+                                                        </Input>
+                                                        </form>
+                                                    </div>
+                                                                           
                          
 
                   </div>
