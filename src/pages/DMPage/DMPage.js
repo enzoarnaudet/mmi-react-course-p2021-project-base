@@ -25,6 +25,7 @@ const DMPage = () => {
            <div className={styles.contenumiddle}>
                   <div className={styles.contenumiddleleft}>
                   <div className={styles.section}>
+                  <Social></Social>
             
            
 </div>
@@ -59,13 +60,12 @@ const DMPage = () => {
 
 
                                                   <div> 
-                                                        <form>
+                                                        <form className={styles.taille}>
                                                         <Input dark  type="text" placeholder="Écris ton message..." >
                                                         </Input>
                                                         </form>
                                                     </div>
                                                                            
-                         
 
                   </div>
            </div>
