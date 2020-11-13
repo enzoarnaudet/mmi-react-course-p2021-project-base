@@ -12,6 +12,7 @@ import {
 import PlaylistPage from './pages/PlaylistPage/PlaylistPage'
 import DMPage from './pages/DMPage/DMPage'
 import ProfilPage from './pages/ProfilPage/ProfilPage'
+import MentionslegalesPage from './pages/Mentionslegales/Mentionslegales'
 import Context from './Context'
 
 
@@ -42,6 +43,9 @@ const contextValue = useMemo(() => ({ src, changeSrc }), [src])
           </Route>
           <Route path="/profil">
             <ProfilPage/>
+          </Route>
+          <Route path="/mentionslegales">
+            <MentionslegalesPage/>
           </Route>
           <Route path="/">
             <HomePage />
