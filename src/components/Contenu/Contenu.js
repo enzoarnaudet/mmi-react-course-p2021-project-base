@@ -18,7 +18,8 @@ const changeBackground = (src) => {
                 <div className={styles.contenu1}>
 
                     <img className={styles.cover} src={'cover/dystopia.png'}/>
-                    <li><button onClick={ () => { changeBackground('cover/dystopia.png') }}>Flyzen Beats - Dystopia</button></li>
+                    <li><button onClick={ () => { changeBackground('cover/dystopia.png') }}>Flyzen Beats - Dystopia</button></li>     
+                       
 
                 </div>
 

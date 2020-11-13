@@ -15,8 +15,9 @@ import ProfilPage from './pages/ProfilPage/ProfilPage'
 import MentionslegalesPage from './pages/Mentionslegales/Mentionslegales'
 import Context from './Context'
 
-
-
+import SpotifyProvider from './components/SpotifyProvider'
+const spotifyClientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID
+const spotifyRedirectUri = process.env.REACT_APP_SPOTIFY_REDIRECT_URI
 const App = () => {
 const [src, updateBackground] = useState('cover/sad.png')
 const changeSrc =  (newBackground) => {  
@@ -24,7 +25,7 @@ updateBackground(newBackground)
 }
 const contextValue = useMemo(() => ({ src, changeSrc }), [src])
   return (
-    
+    <SpotifyProvider clientId={spotifyClientId} redirectUri={spotifyRedirectUri}>
     <Context.Provider value={contextValue}>
       <BrowserRouter>
         <Switch>
@@ -54,7 +55,7 @@ const contextValue = useMemo(() => ({ src, changeSrc }), [src])
 
       </BrowserRouter>
     </Context.Provider>
-    
+    </SpotifyProvider>
   )
 }
 export const BackgroundContext=Context
