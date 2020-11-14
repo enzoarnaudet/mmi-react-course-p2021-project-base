@@ -12,12 +12,14 @@ ul {
     
     border-radius: 14px;
     background: radial-gradient(50.57% 73.72% at 50% 50.57%, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+    
 }
 
 .contenu1{
     margin-top: 10%;
     padding-top: 4%;
     display: flex;
+    
 }
 
 .contenu2{

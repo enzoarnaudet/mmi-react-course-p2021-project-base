@@ -15,6 +15,7 @@
 
 .contenumiddleright{
     background: rgba(152, 152, 152, 0.2);
+  
     
     
 
@@ -32,6 +33,7 @@ width: 50%;
     background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(117, 117, 117, 1) 0%, rgba(0, 0, 0, 0) 100%);
     border-radius: 10px;
     padding-right: 50%;
+   
 }
 .msg1{
     background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(149, 149, 149, 1) 0%, rgba(255, 255, 255, 0) 100%);
