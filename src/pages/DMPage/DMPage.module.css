@@ -29,12 +29,14 @@ width: 50%;
 
 }
 .msg {
-    background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(117, 117, 117, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+    background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(117, 117, 117, 1) 0%, rgba(0, 0, 0, 0) 100%);
     border-radius: 10px;
+    padding-right: 50%;
 }
 .msg1{
-    background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(149, 149, 149, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(77.8% 535.51% at 50% 50%, rgba(149, 149, 149, 1) 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 10px;
+    padding-left: 50%;
 }
 .contenuright{
     width: 25%;
@@ -94,5 +96,10 @@ border-radius: 10px;
 
 .taille{
     width: 93.5%;
-    padding-bottom: 0%;
+}
+
+.cover {
+    height: 120px;
+    border-radius: 5px;
+
 }

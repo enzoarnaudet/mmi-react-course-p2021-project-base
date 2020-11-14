@@ -45,11 +45,11 @@ const DMPage = () => {
                       </div> 
 
                             <div>
-                               <p className={styles.msg}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p className={styles.msg1}> ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p className={styles.msg}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p className={styles.msg1}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
-                               <p className={styles.msg}>ICI je dois mettre la discussion par message d'un beatmaker et d'un rappeur</p>
+                               <p className={styles.msg}>Yo mec je cherche une prod pour un de mes nouveaux sons, t'en as une à me proposer?</p>
+                               <p className={styles.msg1}> <img className={styles.cover} src={'cover/dystopia.png'}/></p>
+                               <p className={styles.msg1}>Ecoute celle-ci et dis moi ce que tu en pense!</p>
+                               <p className={styles.msg}>Ducoup je viens d'écouter c'est vraiment lourd! Tu peux me l'envoyer ?</p>
+                               <p className={styles.msg1}>Ok je te l'envoi pour que tu puisse la télécharger...</p>
 
 
                             </div>
