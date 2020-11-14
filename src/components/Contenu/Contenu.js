@@ -1,5 +1,5 @@
 import React , { useContext } from 'react'
-//import { Link } from 'react-router-dom'
+
 import Text from '../../components/Text'
 import styles from './Contenu.module.css'
 import {BackgroundContext} from '../../App.js'

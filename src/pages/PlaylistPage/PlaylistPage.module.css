@@ -1,4 +1,85 @@
-.h1{
-    padding-top: 5%;
+.cover {
+    height: 60px;
+    border-radius: 100px;
+}
+
+
+.contenu{
+    margin-top: 10%;
+    padding-top: 4%;
+    display: flex;
+}
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+ p{
     color: white;
+        
+}
+
+.son {
+    margin-top: 5%;
+    
+}
+.son1{
+    margin-left: 5%;
+    width: 35%;
+}
+.son1 :hover{
+    color: rgb(136, 136, 136);
+}
+
+.temps {
+    margin-left: 2vw;
+    width: 20%;
+}
+
+
+.section{
+    display: flex;
+    padding-top: 5%;
+    
+}
+
+.contenuright{
+    width: 25%;
+    position: fixed;
+    margin-left: 75%;
+    margin-top: 4%;
+}
+
+.contenuleft{
+    width: 25%;
+}
+
+
+.contenumiddle {
+    
+    width: 50%;
+    
+}
+
+.playlist1{
+    margin-top: 10%;
+    display: flex;
+}
+
+.playlistcover{
+    height: 200px;
+}
+
+.contenuplaylist {
+    background: rgba(230, 230, 230, 0.2);
+    border-radius: 14px;
+    width: 34vw;
+    color: white;
+    list-style: none;
+}
+.contenutous{
+    display: flex;
+}
+.contenuplaylistgauche{
+    width:40%;
 }
