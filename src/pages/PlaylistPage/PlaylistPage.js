@@ -20,7 +20,7 @@ const PlaylistPage = () => {
                  
                  <div className={styles.playlist1}>
 
-                    <img className={styles.playlistcover} src={'cover/drill.jpg'}/>
+                    <img className={styles.playlistcover} src={'cover/drill.jpg'} alt="test"/>
                     <div className={styles.contenuplaylist}>
                     <Text size= 'small' typography= 'bold' tag='p'>
                     <li><button>Ma playlist Drill</button></li>
@@ -56,7 +56,7 @@ const PlaylistPage = () => {
 
                 <div className={styles.playlist1}>
 
-<img className={styles.playlistcover} src={'cover/hardstyle.png'}/>
+<img className={styles.playlistcover} src={'cover/hardstyle.png'} alt="test"/>
 <div className={styles.contenuplaylist}>
 <Text size= 'small' typography= 'bold' tag='p'>
 <li><button>Playlist hardstyle</button></li>
@@ -90,7 +90,7 @@ const PlaylistPage = () => {
 
 <div className={styles.playlist1}>
 
-<img className={styles.playlistcover} src={'cover/pop-punk.png'}/>
+<img className={styles.playlistcover} src={'cover/pop-punk.png'} alt="test"/>
 <div className={styles.contenuplaylist}>
 <Text size= 'small' typography= 'bold' tag='p'>
 <li><button>Playlist pour muscu</button></li>
@@ -124,7 +124,7 @@ const PlaylistPage = () => {
 
 <div className={styles.playlist1}>
 
-<img className={styles.playlistcover} src={'cover/us.png'}/>
+<img className={styles.playlistcover} src={'cover/us.png'} alt="test"/>
 <div className={styles.contenuplaylist}>
 <Text size= 'small' typography= 'bold' tag='p'>
 <li><button>Playlist pour soirée</button></li>
@@ -158,7 +158,7 @@ const PlaylistPage = () => {
 
 <div className={styles.playlist1}>
 
-<img className={styles.playlistcover} src={'cover/emo.png'}/>
+<img className={styles.playlistcover} src={'cover/emo.png'} alt="test"/>
 <div className={styles.contenuplaylist}>
 <Text size= 'small' typography= 'bold' tag='p'>
 <li><button>Playlist bus</button></li>
@@ -192,7 +192,7 @@ const PlaylistPage = () => {
 
 <div className={styles.playlist1}>
 
-<img className={styles.playlistcover} src={'cover/fr.png'}/>
+<img className={styles.playlistcover} src={'cover/fr.png'} alt="test"/>
 <div className={styles.contenuplaylist}>
 <Text size= 'small' typography= 'bold' tag='p'>
 <li><button>Playlist rap français</button></li>
@@ -226,7 +226,7 @@ const PlaylistPage = () => {
 
 <div className={styles.playlist1}>
 
-<img className={styles.playlistcover} src={'cover/chill.png'}/>
+<img className={styles.playlistcover} src={'cover/chill.png'} alt="test"/>
 <div className={styles.contenuplaylist}>
 <Text size= 'small' typography= 'bold' tag='p'>
 <li><button>Playlist qui tue</button></li>

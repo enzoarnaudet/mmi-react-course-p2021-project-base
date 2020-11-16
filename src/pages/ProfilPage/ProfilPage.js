@@ -17,7 +17,7 @@ const ProfilPage = () => {
              <div className={styles.contenumiddle}>
                     <div className={styles.contenumiddleleft}>
                 
-                        <img className={styles.profil} src={'flyzen.png'} />
+                        <img className={styles.profil} src={'flyzen.png'} alt="test"/>
                         <Text size= 'small' typography= 'medium' tag='p'>
                         <p className={styles.followers}><Text size= 'small' typography= 'bold' tag='p'>13</Text> tracks <Text size= 'small' typography= 'bold' tag='p'>4243 </Text>  followers</p>
                         </Text>
@@ -49,19 +49,19 @@ const ProfilPage = () => {
                                                   </Text>
                                              </div>
                                              <div>
-                                                 <img className={styles.logo} src={'/cover/introspection.png'} />
+                                                 <img className={styles.logo} src={'/cover/introspection.png'} alt="test" />
                                                  <Text size= 'small' typography= 'medium' tag='p'>
                                                  <p className={styles.p}><Text size= 'xsmall' typography= 'medium' tag='p'>A Rainy Day </Text>- Introspection </p>
                                                  </Text>
                                              </div>
                                              <div>
-                                                 <img className={styles.logo} src={'/cover/dystopia.png'} />
+                                                 <img className={styles.logo} src={'/cover/dystopia.png'} alt="test" />
                                                  <Text size= 'small' typography= 'medium' tag='p'>
                                                  <p className={styles.p}><Text size= 'xsmall' typography= 'medium' tag='p'>The Sanctuary </Text>- Feel </p>
                                                   </Text>
                                              </div>
                                              <div>
-                                                 <img className={styles.logo} src={'/cover/dystopia.png'} />
+                                                 <img className={styles.logo} src={'/cover/dystopia.png'}  alt="test"/>
                                                  <Text size= 'small' typography= 'medium' tag='p'>
                                                  <p className={styles.p}><Text size= 'xsmall' typography= 'medium' tag='p'>Black Coffin </Text>- Feel </p>
                                                  </Text>
