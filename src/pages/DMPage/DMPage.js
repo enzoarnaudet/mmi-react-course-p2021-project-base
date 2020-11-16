@@ -5,7 +5,7 @@ import Page from '../../components/Page'
 import styles from './DMPage.module.css'
 
 import Text from '../../components/Text'
-//import Contenu from '../../components/Contenu/Contenu'
+
 import Social from '../../components/Social/Social'
 import Input from '../../components/Input'
 import Background from '../../components/Background/Background'
