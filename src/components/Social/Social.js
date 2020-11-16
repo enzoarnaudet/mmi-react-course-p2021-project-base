@@ -19,9 +19,9 @@ const Social = () => {
                     
                     <div className={styles.son1} >
                     
-                        <li><a>Menz</a></li>
+                        <li><a href="gg" >Menz</a></li>
                         <div className={styles.son}>
-                        <a href="" >Dystopia<br></br>Flyzen BEATS</a></div>
+                        <a href="gg" >Dystopia<br></br>Flyzen BEATS</a></div>
                        
                     </div>
 
@@ -36,9 +36,9 @@ const Social = () => {
                     <img className={styles.cover} src={'42765_415.jpg'}/>
                     </div>
                     <div className={styles.son1}>
-                        <li><a>Pop Hip</a></li>
+                        <li><a href="gg" >Pop Hip</a></li>
                         <div className={styles.son}>
-                        <a href="" >Kamikaze<br></br>Pop Hip</a></div>
+                        <a href="gg" >Kamikaze<br></br>Pop Hip</a></div>
                     </div>
 
                     <div className={styles.temps}>
@@ -52,9 +52,9 @@ const Social = () => {
                     <img className={styles.cover} src={'large_c64c1a5b1a877c9c29c8c375775debbb.jpg'}/>
                     </div>
                 <div className={styles.son1}> 
-                        <li><a>Pablin</a></li>
+                        <li><a href="gg" >Pablin</a></li>
                         <div className={styles.son}>
-                        <a  >Coronavirus<br></br>Menz</a></div>
+                        <a href="gg" >Coronavirus<br></br>Menz</a></div>
                 </div>
 
                 <div className={styles.temps}>
@@ -68,9 +68,9 @@ const Social = () => {
                     <img className={styles.cover} src={'large_abd452473d389e5cb99f13bf278ebf00.jpg'}/>
                     </div>
                     <div className={styles.son1}>
-                        <li><a  >Pejiite</a></li>
+                        <li><a href="gg" >Pejiite</a></li>
                         <div className={styles.son}>
-                        <a  >Utopia<br></br>Flyzen BEATS</a></div>
+                        <a href="gg" >Utopia<br></br>Flyzen BEATS</a></div>
                     </div>
 
                     <div className={styles.temps}>
@@ -86,9 +86,9 @@ const Social = () => {
                     <img className={styles.cover} src={'channels4_profile.jpg'}/>
                     </div>
                     <div className={styles.son1}>
-                        <li><a  >Ninovember</a></li>
+                        <li><a href="gg" >Ninovember</a></li>
                         <div className={styles.son}>
-                        <a  >01 MANIKIN<br></br>XXXTENTACION</a></div>
+                        <a href="gg" >01 MANIKIN<br></br>XXXTENTACION</a></div>
                     </div>
 
                     <div className={styles.temps}>

@@ -43,7 +43,7 @@ const ProfilPage = () => {
                                 </ul>
                         
                                              <div>
-                                                 <img className={styles.logo} src={'/cover/introspection.png'} />
+                                                 <img className={styles.logo} src={'/cover/introspection.png'} alt="test"/>
                                                  <Text size= 'small' typography= 'medium' tag='p'>
                                                   <p className={styles.p}><Text size= 'xsmall' typography= 'medium' tag='p'>Smoke Break</Text> - Introspection </p>
                                                   </Text>

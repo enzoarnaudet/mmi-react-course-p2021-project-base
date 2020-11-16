@@ -13,7 +13,7 @@ const Menu = () => {
       <ul className={styles.menu}>
 
       <MenuItem to="/mentionslegales" >
-      <img className={styles.logo} src={'logo.png'} />
+      <img className={styles.logo} src={'logo.png'} alt="test" />
       </MenuItem>
       
       
@@ -21,7 +21,7 @@ const Menu = () => {
       <form className={styles.form}>
       
      <Input dark  type="text" placeholder="               Recherche" >
-     <div><img className={styles.loupe} src={'loupe.png'} /></div>
+     <div><img className={styles.loupe} src={'loupe.png'}  alt="test"/></div>
     
       </Input>
      
@@ -29,23 +29,23 @@ const Menu = () => {
       
       </form>
       <MenuItem to="/" >
-     <img className={styles.home} src={'home.png'} />
+     <img className={styles.home} src={'home.png'} alt="test" />
     
       </MenuItem>
       <MenuItem to="/discover">
-      <img className={styles.discover} src={'discover.png'} />
+      <img className={styles.discover} src={'discover.png'} alt="test" />
      
       </MenuItem>
       <MenuItem to="/playlists">
-      <img className={styles.playlist} src={'playlist.png'} />
+      <img className={styles.playlist} src={'playlist.png'} alt="test" />
        
       </MenuItem>
       <MenuItem to="/message">
-      <img className={styles.message} src={'dm.png'} />
+      <img className={styles.message} src={'dm.png'} alt="test" />
        
       </MenuItem>
       <MenuItem to="/profil">
-      <img className={styles.profil} src={'flyzen.png'} />
+      <img className={styles.profil} src={'flyzen.png'} alt="test" />
       
       </MenuItem>
       <MenuItem to="/login" >
