@@ -1,6 +1,4 @@
 import React from 'react'
-import Page from '../../components/Page'
-
 import styles from './Artist.module.css'
 import Contenu from '../../components/Contenu/Contenu'
 import Menu from '../../components/Menu/Menu'
