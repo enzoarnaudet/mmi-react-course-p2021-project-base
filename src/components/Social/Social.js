@@ -1,5 +1,5 @@
 import React from 'react'
-//import { Link } from 'react-router-dom'
+
 
 import styles from './Social.module.css'
 
@@ -14,7 +14,7 @@ const Social = () => {
             <ul>
                 <div className={styles.contenu}>
                     <div>
-                        <img className={styles.cover} src={'42764_415.jpg'} alt="test" alt="test"/>
+                        <img className={styles.cover} src={'42764_415.jpg'}  alt="test"/>
                     </div>
                     
                     <div className={styles.son1} >
@@ -65,7 +65,7 @@ const Social = () => {
 
                 <div className={styles.contenu}>
                     <div>
-                    <img className={styles.cover} src={'large_abd452473d389e5cb99f13bf278ebf00.jpg'} alt="test"/>
+                    <img className={styles.cover} src={'large_abd452473d389e5cb99f13bf278ebf00.jpg'} alt="tet"/>
                     </div>
                     <div className={styles.son1}>
                         <li><a href="gg" >Pejiite</a></li>
