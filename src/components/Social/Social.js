@@ -14,7 +14,7 @@ const Social = () => {
             <ul>
                 <div className={styles.contenu}>
                     <div>
-                        <img className={styles.cover} src={'42764_415.jpg'} alt="test"/>
+                        <img className={styles.cover} src={'42764_415.jpg'} alt="test" alt="test"/>
                     </div>
                     
                     <div className={styles.son1} >
@@ -33,7 +33,7 @@ const Social = () => {
 
                 <div className={styles.contenu}>
                     <div>
-                    <img className={styles.cover} src={'42765_415.jpg'}/>
+                    <img className={styles.cover} src={'42765_415.jpg'} alt="test"/>
                     </div>
                     <div className={styles.son1}>
                         <li><a href="gg" >Pop Hip</a></li>
@@ -49,7 +49,7 @@ const Social = () => {
 
                 <div className={styles.contenu}>
                     <div>
-                    <img className={styles.cover} src={'large_c64c1a5b1a877c9c29c8c375775debbb.jpg'}/>
+                    <img className={styles.cover} src={'large_c64c1a5b1a877c9c29c8c375775debbb.jpg'} alt="test"/>
                     </div>
                 <div className={styles.son1}> 
                         <li><a href="gg" >Pablin</a></li>
@@ -65,7 +65,7 @@ const Social = () => {
 
                 <div className={styles.contenu}>
                     <div>
-                    <img className={styles.cover} src={'large_abd452473d389e5cb99f13bf278ebf00.jpg'}/>
+                    <img className={styles.cover} src={'large_abd452473d389e5cb99f13bf278ebf00.jpg'} alt="test"/>
                     </div>
                     <div className={styles.son1}>
                         <li><a href="gg" >Pejiite</a></li>
@@ -83,7 +83,7 @@ const Social = () => {
 
                 <div className={styles.contenu}>
                     <div>
-                    <img className={styles.cover} src={'channels4_profile.jpg'}/>
+                    <img className={styles.cover} src={'channels4_profile.jpg'} alt="test"/>
                     </div>
                     <div className={styles.son1}>
                         <li><a href="gg" >Ninovember</a></li>
